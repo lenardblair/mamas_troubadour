@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Room333 Blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/ionic-1.css" rel="stylesheet">	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/@ionic/core@4.2.0/css/ionic.bundle.css" rel="stylesheet">
+    <script src="https://unpkg.com/@ionic/core@4.2.0/dist/ionic.js"></script>
+	<link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+	
+</head>
+	
+
+<body>
+	
+	
+<ion-content >
+	<!-- Start of Content viewport -->
+<ion-grid class="topGrid">
+  <ion-row>               <!--ion-row one. Navigation-->
+    <ion-col class="naviCol" size="12" size-md>
+    <img id="cardImage" class="logo" src="images/svg/Asset 1.svg" alt="">
+    </ion-col>
+	  
+	<ion-col class="linkCol">
+	<ion-item color="blank" class="activated">
+    <ion-icon id="randomPdfIcon" class="randomIcon" color="light" name="shuffle" slot="start" value="random link!" onClick="randomlinks()"></ion-icon>
+    <ion-label color="light" alt="Random Page" >Aimless Arrow</ion-label>
+    </ion-item>
+	</ion-col>  
+  </ion-row>
+<!--randomLink Script Start  -->
+	<script type="text/javascript">
+function randomlinks(){
+    var myrandom=Math.round(Math.random()*14)
+    var links=new Array()
+    links[0]="plunder.html"
+    links[1]="aciddream.html"
+    links[2]="where_am_i.html"
+    links[3]="secrets_ch1.html"
+    links[4]="10thousand.html"
+    links[5]="adlibs.html"
+    links[6]="altzine.html"
+    links[7]="charlie.html"
+    links[8]="fast_fashion.html"
+    links[9]="identical.html"
+	links[10]="jizoo.html"
+	links[11]="livebeatset.html"
+	links[12]="magic.html"
+	links[13]="skillit.html"
+	links[14]="stop_it.html"
+ 
+    window.location=links[myrandom]
+}
+</script> 
+<!--randomLink Script End -->
+	
+	
+	
+	
+  <ion-row> <!--ion-row two-->
+	  <ion-col id="pdfContainer" class="pdf_container"> <embed src="pdf_files/fast_fashion.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="800px" /> </ion-col> 
+</ion-row>	
+	
+
+</ion-grid>
+	
+	<ion-row>               <!--ion-row Four 'footer'-->
+    <ion-col class="finalRow" size="12" size-md>
+      Water Is The Boss, The Land Must Obey.
+    </ion-col>
+	<ion-col class="linkCol">
+	<ion-item color="blank" href="index.html" class="activated" >
+    <ion-icon color="dark" target="_blank" name="home" slot="start"></ion-icon>
+    <ion-label color="dark" >Home</ion-label>
+    </ion-item>
+	<ion-item color="blank" href="https://www.instagram.com/room_3_3_3/" class="activated">
+    <ion-icon color="dark" target="_blank" name="link" slot="start"></ion-icon>
+    <ion-label color="dark" >Instagram</ion-label>
+    </ion-item>	
+	</ion-col>	
+</ion-row>
+	
+	
+	
+<!--  lblair2008@gmail.com -->	
+	
+
+	
+	
+<script src="js/Ionic1_script.js" charset="utf-8"></script>	
+</body>
+</html>
