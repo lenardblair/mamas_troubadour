@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+  --ion-color-partic: #5076f1;
+  --ion-color-primary: #00a8a8;
+  --ion-color-primary-rgb: 0,168,168;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-secondary: #408080;
+  --ion-color-secondary-rgb: 64,128,128;
+  --ion-color-secondary-contrast: #ffffff;
+  --ion-color-tertiary: #004080;
+  --ion-color-tertiary-rgb: 0,64,128;
+  --ion-color-tertiary-contrast: #ffffff;
+  --ion-color-medium: #989aa2;
+  --ion-color-medium-rgb: 152,154,162;
+  --ion-color-medium-contrast: #ffffff;
+  --ion-color-light: #f4f5f8;
+  --ion-color-light-rgb: 244,244,244;
+  --ion-color-light-contrast: #000000;
+  --ion-color-light-contrast-rgb: 0,0,0;
+
+.blank {
+	
+}
+
+.body {
+	background-color: #000000;
+	height: 100%;
+}	
+
+.pdf_container {
+	height: auto;
+	max-width: 855px;
+	
+}
+
+.topGrid {
+	background-color: #000000;
+	background-size: auto;
+	margin-bottom: 44px;
+	
+}
+
+.topGrid_home {
+	background-color: #000000;
+	background-size: auto;
+	height: 100%;
+}
+
+.naviCol {
+	overflow: hidden;
+	margin-left: 1.5px;
+	height: 100%;
+	max-width: 355px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 12px;
+	align-items: center;
+}
+
+.linkCol {
+	width: inherit;
+	padding-bottom: 3px;
+
+}
+
+.randomIcon {
+	font-size: 44px;
+	-webkit-transition: font-size 1.4s;
+	transition: font-size 1.4s; 	
+}
+
+.randomIcon:hover {
+	font-size: 40px;
+	cursor: crosshair;
+}
+
+.fabList {
+	--background: #000000;
+}
+
+.colAll {
+	overflow: hidden;
+	margin-top: 1.5px;
+	height: 75%;
+	background-color: #000000;
+	-webkit-transition: height 0.7s; 
+    transition: height 0.7s;
+	padding: inherit;
+	
+	
+}
+
+.colAll:hover {
+	border: solid 0.5px #A72E2E;
+	height: 75%;
+	background-color: #171717;
+	cursor: pointer;
+}
+
+.footerCol {
+	border: solid 1px #535353;
+	overflow: visible;
+	margin-left: 1.5px;
+	height: auto;
+	background-color: #000000;	
+}
+
+.finalRow {
+	width: 100%;
+	height: 100%;
+	margin-top: 3px;
+	font-size: 40px;
+	background-color: #ffffff;
+	padding-bottom: 53px;
+	
+	
+}
+
+.ion-color-cblock1 {
+	--ion-color-base: #00a8a8;
+}
+	
+
+.ion-color-cblock1:hover {
+	--ion-color-base: #408080;
+
+}
+
+.ion-color-toggle1 {
+	--background: #78c288;
+	--handle-background: #78c288;
+}
+
+.mainview_div {
+	width: 750px;
+	min-width: 45%;
+	overflow: visible;
+	
+	
+}
+	
+.main-card {
+	border: 1px solid #595959;
+	max-width: auto;	
+    height: 90%;	
+    transition: width 1.3s ease;
+	overflow: inherit;
+	margin-bottom: 55px;
+	
+	
+}
+
+.card-img {
+	border: 0.5px solid #C0C0C0;
+	position: inherit;
+	
+}
+
+.subTitle {
+	text-decoration-line: underline;
+	text-decoration-color: #B74343;
+	text-decoration-style: solid;
+	color: #B74343;
+}
+
+.listOneDiv {
+	position: relative;
+	
+}
+
+.btnDivId {
+	position: relative;
+}
+
+.tabsFooter {
+	display: inline-block;
+}
